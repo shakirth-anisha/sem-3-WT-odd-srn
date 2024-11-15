@@ -1,0 +1,54 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  padding: 20px;
+  background-color: #282c34;
+  min-height: 100vh;
+  font-size: 24px;
+  color: white;
+}
+
+.patient {
+  width: 95%;
+  height: fit-content;
+  border: #ffffff60 2px solid;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  justify-content: center; 
+  color:cornflowerblue;
+  margin-left: 10px;
+  display: flex;
+}
+
+.center_it {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+li {
+  color: cadetblue;
+  margin-left: 15px;
+  font-size: 36px;
+  list-style-type: none;
+  font-weight: bold;
+}
+
+ul {
+  margin-left: 65px;
+  list-style-type: none;
+}
+
+button {
+  font-size: 18px;
+  padding: 20px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  background-color:cadetblue;
+}
